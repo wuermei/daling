@@ -1,0 +1,12 @@
+.notice{
+	width: 800px;
+	height: 324px;
+	margin: 0 auto;
+	padding: 88px 0;
+	color: #666;
+	line-height: 24px;
+}
+.notice span{
+	display: block;
+	float: right;
+}

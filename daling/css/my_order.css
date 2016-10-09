@@ -1,0 +1,91 @@
+.do_user{
+	width:1200px;
+	height:402px;
+	margin:40px auto 80px;
+}
+.user_sidebar{
+	width:192px;
+	height:400px;
+	border:1px solid #e5e5e5;
+	float:left;
+}
+.user_sidebar_title{
+	height:54px;
+	line-height:54px;
+	text-align:center;
+	color:#666;
+	border-bottom:1px solid #e14958;
+
+}
+.user_sidebar_list{
+	padding:14px 0 0 36px;
+
+}
+.user_sidebar_list li{
+	list-style-type:square;
+	color:#e14958;
+	line-height:34px;
+}
+.user_sidebar_list li a{
+	color:#666;
+	font-weight:bold;
+}
+.user_sidebar_list li a:hover{
+	text-decoration:underline;
+}
+/*我的钱包*/
+.bag_list{
+	display:none;
+}
+.bag_list li{
+	list-style:none;
+	margin-left:20px;
+}
+.bag_list li a.act{
+	color:#f00;
+}
+
+.user_main{
+	width:986px;
+	height:402px;
+	float:right;
+	position:relative;
+}
+.um_title{
+	margin-bottom:50px;
+	color:#666;
+}
+.main_head{
+	width:986px;
+	height:40px;
+	border:1px solid #ccc;
+	background:#fafafa;
+	margin-bottom:10px;
+}
+.main_head thead{
+	width:986px;
+	height:40px;
+	line-height:40px;
+	color:#666;
+}
+.order_empty{
+	width:160px;
+	height:160px;
+	position:absolute;
+	top:218px;
+	left:250px;
+	background: url(../images/order.jpg) no-repeat;
+}
+.p_text{
+	position:absolute;
+	top:280px;
+	left:440px;
+}
+.goShopping{
+	position:absolute;
+	top:310px;
+	left:440px;
+}
+.goShopping:hover{
+	text-decoration:underline;
+}

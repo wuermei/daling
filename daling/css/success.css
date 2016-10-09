@@ -1,0 +1,121 @@
+/*cart_top样式的重写*/
+.step .step2{
+	background:#fe9994;
+	color:#d8827e;
+}
+.step2 .step_number{
+	background:#d8827e;
+	color:#fff;
+}
+.step .step3{
+	background:#f25e5a;
+	color:#fff;
+	font-weight:bolder;
+}
+.step3 .step_number{
+	background:#fff;
+	color:#f25e5a;
+}
+.payment_callback{
+	width:820px;
+	height:86px;
+	border:1px solid #ccc;
+	margin-top:20px;
+	padding:30px 100px;
+	text-align:center;
+	line-height:40px;
+	color:#666;
+}
+.ico_success{
+	display:block;
+	float:left;
+	width:50px;
+	height:50px;
+	background:url(../images/ico_payment.png) no-repeat;
+	margin-left:200px;
+}
+.payment_callback span{
+	color:#f00;
+}
+.payment_callback  a{
+	margin-right:24px;
+	color:#666;
+	text-decoration: underline
+}
+.payment_callback  a:hover{
+	color:#f00;
+}
+.payway_title{
+	width:1020px;
+	margin:0 auto;
+	color:#666;
+	margin-top:38px;
+}
+.payway_box{
+	width:984px;
+	height:490px;
+	margin:0 auto;
+	padding:10px 18px;
+	border:1px solid #ccc;
+	overflow:hidden;
+	margin-bottom:20px;
+
+}
+.platform{
+	width:984px;
+	height:160px;
+	border-bottom:1px solid #ccc;
+}
+.platform label,.internet_platform label{
+	display:block;
+	width:170px;
+	height:70px;
+	float:left;
+	margin-top:20px;
+	margin-right:50px;
+	color:#666;
+	font-size:12px;
+	position:relative;
+
+}
+.platform p,.internet_platform p{
+	position:absolute;
+	top:60px;
+	left:24px;
+}
+.platform input,.internet_platform input{
+	position:absolute;
+	top:4px;
+	left:0;
+}
+.platform img,.internet_platform img{
+	position:absolute;
+	top:0;
+	left:24px;
+}
+.internet_platform{
+	width:984px;
+	height:250px;
+}
+.pay_total{
+	width:1022px;
+	height:38px;
+	line-height:38px;
+	margin:0 auto;
+	text-align:right;
+}
+.pay_total span{
+	color:#f00;
+}
+.submit_pay{
+	width:140px;
+	height:38px;
+	color:#fff;
+	background:#f25e5a;
+	line-height:38px;
+	text-align:center;
+	border:none;
+	float:right;
+	cursor:pointer;
+	margin-left:10px;
+}

@@ -1,0 +1,354 @@
+/*da_search*/
+.da_search{
+	width: 1200px;
+	height: 4594px;
+	margin: 0 auto;
+	margin-bottom: 50px;
+	
+}
+.search_link{
+	width: 1200px;
+	height: 40px;
+	line-height: 40px;
+	margin: 10px 0;
+}
+.search_link li{
+	float: left;
+	padding-right: 14px;
+}
+.ico_home{
+	display: block;
+	float: left;
+	width: 20px;
+	height: 14px;
+	background: url(../images/ico.png) no-repeat 0 -44px;
+	cursor: pointer;
+	margin-top: 10px;
+	margin-right: 10px;
+
+}
+.ico_to{
+	display: block;
+	float: left;
+	width: 20px;
+	height: 20px;
+	background: url(../images/ico_arrow.png) no-repeat -36px -85px;
+	margin-top: 8px;
+
+}
+.sort{
+	display: block;
+	float: left;
+	height: 20px;
+	width: 60px;
+	line-height:20px;
+	border:1px solid #ccc;
+	color:#666;
+	margin-top: 8px;
+	margin-right: 10px;
+	cursor: pointer;
+	position: relative;
+
+}
+.sort_name:hover{
+	text-decoration: underline;
+}
+.sort_name{
+	display: block;
+	float: left;
+}
+.sort_arrow{
+	display: block;
+	float: left;
+	width: 8px;
+	height: 18px;
+	position: absolute;
+	right: 0px;
+	background: url(../images/ico_arr.jpg) no-repeat
+}
+.drop{
+	display: none;
+	width: 80px;
+	height: 160px;
+	border:1px solid #ccc;
+	position: absolute;
+	top: 22px;
+	left: -2px;
+	background: #fff;
+	z-index: 2;
+	text-align: center;
+}
+.drop ul{
+	width: 80px;
+	height: 160px;
+	text-indent: 10px;
+
+}
+.drop ul li{
+	float:left;
+	line-height: 24px;
+}
+.d_search{
+	width: 174px;
+	height: 24px;
+	border:1px solid #ccc;
+	margin-top:8px;
+	position: relative;
+}
+.search_input{
+	display: block;
+	float: left;
+	width: 146px;
+	height: 22px;
+	border: none;
+}
+.search_btn{
+	width:14px;
+	height:16px;
+	position: absolute;
+	right: 6px;
+	top: 6px;
+	background: url(../images/ico-sort.png) no-repeat -38px 0;
+	border: none;
+	cursor: pointer;
+}
+.condition{
+	width: 1162px;
+	height: 105px;
+	border:1px solid #ccc;
+	padding:18px 20px 20px;
+	color:#666;
+}
+.condition ul{
+	width: 1162px;
+	height: 105px;
+}
+.condition ul li{
+	float: left;
+	width: 1163px;
+	height: 36px;
+	line-height: 36px;
+}
+.condition ul li a{
+	display: block;
+	float: left;
+	margin:0 40px;
+	color:#666; 
+
+}
+.c_title{
+	display: block;
+	float: left;
+}
+.condition ul li a:hover{
+	text-decoration: underline;
+}
+.condition ul li .sort_more{
+	display: block;
+	float: right;
+	width: 60px;
+	height: 24px;
+	line-height: 24px;
+	border:1px solid #ccc;
+	text-align: right;
+	margin: 0;
+	position: relative;
+	margin-top: 10px;
+}
+.sort_more span{
+	display: block;
+	width: 10px;
+	height: 10px;
+	position: absolute;
+	top: 8px;
+	left: 12px;
+	background: url(../images/ico_more.jpg) no-repeat;
+}
+.condition ul li .select_more{
+	display: block;
+	width: 60px;
+	height: 24px;
+	line-height: 24px;
+	border:1px solid #ccc;
+	text-align: right;
+	margin: 0;
+	position: relative;
+	margin-top: 10px;
+	margin-left: 200px;
+}
+.select_more span{
+	display: block;
+	float:left;
+	width: 10px;
+	height: 10px;
+	line-height: 10px;
+	position: absolute;
+	top: 8px;
+	left: 12px;
+
+}
+.condition ul li .select_more1{
+	margin-left:506px;
+}
+.sortbar{
+	width: 1200px;
+	height: 38px;
+	line-height:38px;
+	border:1px solid #ccc;
+	margin-top:20px;
+	padding:0 16px;
+	position: relative;
+
+}
+.sortinner{
+	float: left;
+	width: 500px;
+	height: 38px;
+}
+.sort_way{
+	display:block;
+	float: left;
+	padding-right: 10px;
+}
+.sortinner a{
+	display:block;
+	float: left;
+	margin-right: 20px;
+	padding-right: 10px;
+	position: relative;
+	color: #666;
+}
+.sortinner a span{
+	display: block;
+	float: left;
+	width: 10px;
+	height: 12px;
+	position: absolute;
+	top:14px;
+	right: 0;
+}
+.sortinner a:hover{
+	text-decoration: underline;
+}
+.sortinner .default{
+	color:#f00;
+}
+.default span{
+	background: url(../images/ico-sort.png) no-repeat -12px 0;
+}
+.sortinner .sort_price span{
+	background: url(../images/ico_arr.jpg) no-repeat;
+	width: 10px;
+	height: 24px;
+	position: absolute;
+	top:10px;
+	right: 0;
+}
+.sort_sale span,.hot span,.show_time span{
+	background: url(../images/ico-sort.png) no-repeat 0 0;
+
+}
+.sortpage{
+	float: right;
+	width: 220px;
+	height: 36px;
+	line-height: 36px;
+}
+.goods_number,.no{
+	color:#f00;
+}
+.jiange{
+	padding:0 10px;
+}
+.sortpage a{
+	color:#666;
+	margin-left:10px;
+}
+/*.contain*/
+.contain{
+	width: 1200px;
+	height: 4200px;
+}
+.contain li{
+	width:286px;
+	height:390px;
+	float:left;
+	border:1px solid #ccc;
+	margin:0 8px;
+	margin-top: 20px;
+}
+.contain .li_last{
+	margin-right:0;
+}
+.contain li .new_img{
+	display:block;
+	width:286px;
+	height:290px;
+	position:relative;
+}
+.contain li .new_img img{
+	display:block;
+	width:100%;
+	height:100%;
+
+}
+.function{
+	color: #a5a5c2;
+	text-align: left;
+	width: 228px;
+	margin: 0 auto;
+}
+.contain li:hover .go_cart{
+  	display:block;
+  }
+.contain  li:hover{
+	box-shadow:0 0 10px #abcdef;
+}
+.contain .li_first{
+	margin-left: 0;
+}
+.contain .li_last{
+	margin-right: 0;
+}
+.pagenation{
+	width: 1200px;
+	height: 70px;
+}
+.page{
+	width: 300px;
+	height: 30px;
+	padding: 20px 0;
+	float: right;
+}
+.page li{
+	float:left;
+	width: 30px;
+	height: 30px;
+	line-height: 30px;
+	margin-left: 10px;
+	border: 1px solid #ccc;
+	color: #666;
+	text-align: center;
+	cursor:pointer;
+}
+.nextpage{
+	display: block;
+	float: right;
+	width: 50px;
+	height: 30px;
+	border: 1px solid #ccc;
+	text-align: center;
+	line-height: 30px;
+	color: #666;
+}
+.page li:hover{
+	background: #dcdcdd;
+}
+.nextpage:hover{
+	text-decoration: underline;
+	background: #dcdcdd;
+}
+.page li.current{
+	color: #fff;
+	background: #ccc;
+}

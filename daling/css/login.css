@@ -1,0 +1,218 @@
+/*****************************l_header**********************************/
+.l_header{
+	height:100px;
+	border-bottom:1px solid #ccc;
+	background:#fff;
+}
+
+/*************l_content***************************************************/
+.l_content{
+	height:660px;
+	background:#f9fbfd url(../images/login_bg.png) no-repeat 80px 40px;
+}
+.login_ct{
+	width:392px;
+	height:448px;
+	background:#fff;
+	float:right;
+	margin-top:44px;
+	margin-right:40px;
+	border:1px solid #ccc;
+	padding:20px 30px;
+}
+.login_panel{
+	width:392px;
+	height:260px;
+	background:#fff;
+}
+.login_panel h3{
+	height:30px;
+	line-height:30px;
+	font-size:16px;
+	color:#666;
+	border-left:4px solid #7d589d;
+	text-indent:10px;
+	margin-bottom:24px;
+}
+.tabs{
+	width:272px;
+	height:29px;
+	line-height:29px;
+	border-bottom:1px solid #7d589d;
+	margin:0 auto;
+	padding:0 36px;
+}
+.tabs a{
+	display:block;
+	float:left;
+	width:70px;
+	height:29px;
+	text-align:center;
+	margin-right:36px;
+	color:#666;
+}
+.tabs a:hover{
+	text-decoration:underline;
+}
+.tabs a.active{
+	background: url(../images/login_arr.png) no-repeat 0 19px;
+}
+/*登录表单*/
+.login_form{
+	width:320px;
+	height:136px;
+	background:#fff;
+	margin:40px 0 0 30px;
+}
+.ctrl{
+	width:320px;
+	height:40px;
+	margin-bottom:20px;
+	position: relative;
+}
+.login_sign{
+	display:block;
+	float:left;
+	width:38px;
+	height:42px;
+	border:1px solid #666;
+	border-right:0;
+}
+.mobile,.password{
+	float:left;
+	width:274px;
+	height:40px;
+	border:1px solid #666;
+	text-indent:20px;
+}
+.login_sign span{
+	display:block;
+	width:20px;
+	height:22px;
+	margin:10px 0 0 10px;
+	
+}
+.ico_user{
+	background:url(../images/ico-login.png) no-repeat -28px 0;
+}
+.ico_pwd{
+	background:url(../images/ico-login.png) no-repeat -30px -27px;
+}
+.ico_sms{
+	background:url(../images/ico-login.png) no-repeat -30px -56px;
+}
+.forget{
+	text-align:right;
+}
+.forget a{
+	color:#666;
+}
+.forget a:hover{
+	text-decoration:underline;
+}
+.login_submit{
+	width:320px;
+	height:40px;
+	background:#e14958;
+	color:#fff;
+	border:none;
+	margin-top:10px;
+	cursor:pointer;
+}
+
+.error{
+	position: absolute;
+	background: rgba(0,0,0,0.75);
+	border-radius: 3px;
+	z-index: 10;
+	left: 6px;
+	bottom: -38px;
+	height: 30px;
+	line-height: 30px;
+	border: none!important;
+	font-size: 12px!important;
+	color: #fff;
+}
+.after{
+	display:block;
+	position: absolute;
+	left: 30px;
+	top: -5px;
+	height: 0;
+	border: 5px solid transparent;
+	border-bottom-color:#000;
+	border-top-width: 0;
+	z-index: 20;
+	opacity: 0.75;
+	filter: alpha(opacity=0.75);
+}
+
+/*注册表单*/
+.register_form{
+	width:320px;
+	height:242px;
+	background:#fff;
+	margin:40px 0 0 30px;
+}
+.verify,.sms{
+	float:left;
+	width:160px;
+	height:40px;
+	border:1px solid #666;
+	text-indent:20px;
+	margin-right:10px;
+}
+.yzm{
+	width:100px;
+	height:28px;
+	margin-top:6px;
+}
+.ctrl button{
+	width:100px;
+	height:28px;
+	margin-top:6px;
+	color:#fff;
+	background:#94d469;
+	font-size:12px;
+	border:none;
+	font-weight:bold;
+}
+.agreement{
+	line-height:20px;
+}
+.agreement a:hover{
+	text-decoration:underline;
+}
+.register_submit{
+	width:320px;
+	height:40px;
+	background:#ccc;
+	color:#fff;
+	border:none;
+	margin-top:10px;
+	cursor:pointer;
+}
+.register_submit.active{
+	background:#e14958;
+}
+#div1{
+	width: 60px;
+	height: 20px;
+	text-align: center;
+	line-height: 20px;
+	position: absolute;
+	top: 0;
+	right: 0;
+	background: #abcdef;
+	color: #fff;
+	border-radius: 5px;
+}
+#btn{
+	position: absolute;
+	top: 30px;
+	right: 0;
+	background: orange;
+	color: #fff;
+	border: none;
+
+}
