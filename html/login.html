@@ -1,0 +1,155 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+	<meta charset="UTF-8">
+	<title>登录与注册页面</title>
+	<link rel="shortcut icon" type="text/css" href="../images/favicon.ico"><!-- 设置title小图标 -->
+	<link rel="stylesheet" type="text/css" href="../css/common.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/index.css"/>
+	<link rel="stylesheet" type="text/css" href="../css/login.css"/>
+</head>
+<body>
+	<!-- l_header -->
+	<div class="l_header wrap">
+		<a class="logo fl" href="#"><img src="../images/logo.png" alt="logo" title="logo"></a>
+	</div>
+	
+	<!-- l_content -->
+	<div class="l_content wrap">
+		<div class="login_ct">
+			<div class="login_panel">
+				<h3>达令会员</h3>
+				<div class="tabs f16">
+					<a class="active" href="javascript:void(0);">登录</a>
+					<a href="javascript:void(0);">注册</a>
+				</div>
+
+				<!-- 登录的表单 -->
+				<form class="login_form" action="cart.html" method="post" style="display:block;">
+					<!-- 手机号 -->
+					<div class="ctrl">
+						<span class="login_sign">
+							<span class="ico_user"></span>
+						</span>
+						<input type="text" class="mobile" placeholder="请输入您的手机号码" />
+						<label id="mobile-error" class="error" for="mobile" style="display:none;">
+							<span class="after"></span>
+						</label>		
+					</div>
+					<!-- 密码 -->
+					<div class="ctrl">
+						<span class="login_sign">
+							<span class="ico_pwd"></span>
+						</span>
+						<input type="password" class="password" placeholder="请输入您的密码" />
+						<label id="password-error" class="error" for="password" style="display:none;">
+						<span class="after"></span>
+						</label>				
+					</div>
+					<p class="forget f12">
+						<a href="">忘记密码？</a>
+					</p>
+					<button type="submit" class="login_submit  f14 fb">登录</button>
+				</form>
+				
+				<!-- 注册表单 -->
+				<form class="register_form" action="login.html" method="post" style="display:none;">
+					<!-- 手机号 -->
+					<div class="ctrl">
+						<span class="login_sign">
+							<span class="ico_user"></span>
+						</span>
+						<input type="text" class="mobile" placeholder="请输入您的手机号码" />
+						<label id="mobile-error" class="error" for="mobile" style="display:none;">
+							<span class="after"></span>
+						</label>				
+					</div>
+					<!-- 验证码 -->
+					<div class="ctrl">
+						<span class="login_sign">
+							<span class="ico_pwd"></span>
+						</span>
+						<input type="text" class="verify" placeholder="请输入验证码" />
+						<label class="error" style="display:none;">
+							<span class="after"></span>
+						</label>
+						<!-- <img class="yzm" src="../images/yzm.png" alt="" title=""/>		 -->
+						<div id="div1">Mkd6</div>
+  						<input type="button" id="btn" value= "刷新验证"/>
+					</div>
+					<!-- 短信验证码 -->
+					<div class="ctrl">
+						<span class="login_sign">
+							<span class="ico_sms"></span>
+						</span>
+						<input type="text" class="sms" placeholder="请输入您的短信验证码" />
+						<button type="button">获取验证码</button>
+						<label id="password-error" class="error" for="password" style="display:none;">
+						<span class="after"></span>
+						</label>	
+					</div>
+					<!-- 密码 -->
+					<div class="ctrl">
+						<span class="login_sign">
+							<span class="ico_pwd"></span>
+						</span>
+						<input type="password" class="password" placeholder="请输入您的密码" />	
+						<label id="password-error" class="error" for="password" style="display:none;">
+						<span class="after"></span>
+						</label>		
+					</div>
+					<div class="agreement f12">
+						<input type="checkbox" name="" id="box"/>我已阅读并同意
+						<a href="#">《达令用户注册协议》</a>
+					</div>
+					<button type="submit" class="register_submit  f14 fb">注册</button>
+				</form>
+			</div>
+		</div>
+	</div>
+
+	<!-- ensure -->
+	<div class="ensure wrap f14">
+		<ul>
+			<li>为什么选择达令<span class="arrow_1"></span></li>
+			<li><span class="arrow_2"></span>100多个品牌授权</li>
+			<li><span class="arrow_3"></span>24小时内发货</li>
+			<li><span class="arrow_4"></span>保税区正品</li>
+		</ul>
+	</div>
+
+	<!-- investor -->
+	<div class="investor wrap">
+		<dl>
+			<dt class="f16">投资人说达令</dt>
+			<dd class="f12">“hi，达令，我是鹿晗，达令投资人，投资比影响力更重要的是责任”</dd>
+		</dl>
+		<dl>
+			<dt class="f16">投资人说达令</dt>
+			<dd class="f12">“达令™一手全球好货”带您购全球，教您什么值得买。连续来两年荣获App Store 编辑推荐最佳购物类运用</dd>
+		</dl>
+	</div>
+
+	<!-- footer -->
+	<div class="footer wrap f14">
+		<p>
+			<a href="../index.html">首页</a>|
+			<a href="#">网站地图</a>|
+			<a href="notice.html">消费者告知书</a>|
+			<a href="#">优惠券使用规则</a>|
+			<a href="#">退换货使用说明</a>|
+			<a href="#">关于我们</a>|
+			<a href="#">联系我们</a>
+		</p>
+		<p>北京菩提科技有限公司</p>
+		<p>Copyright &copy; 2015-2016达令，All Rights Reserved | 京ICP备14009583号-1 | 食品流通许可证编号：SP1101051510323113</p>
+	</div>
+
+
+
+	<!-- js的引入	 -->
+	<script src="../lib/jquery-1.10.2.min.js"></script>
+	<script src="../lib/common.js"></script>
+	<script src="../js/login.js"></script>
+</body>
+</html>

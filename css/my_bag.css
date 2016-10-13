@@ -1,0 +1,51 @@
+.bag_list{
+	display:block;
+}
+.bag_list li a.act{
+	color:#f00;
+}
+.p_say{
+	position:absolute;
+	top:280px;
+	left:400px;
+	color:orange;
+}
+
+.bar_content{
+	width:986px;
+	height:20px;
+	border-bottom:1px solid #cec9c9;
+	margin-bottom:26px;
+}
+
+.bar{
+	width:300px;
+	height:20px;
+	line-height:20px;
+	float:left;
+
+}
+.bar li{
+	float:left;
+	height:20px;
+	width:54px;
+	text-align:center;
+	margin-right:12px;
+	border:1px solid #cec9c9;
+	border-bottom:0;
+	color:#666;
+	cursor:pointer;
+}
+.bar li.active{
+	width:56px;
+	border:0;
+	color:#fff;
+	background:#e14958;
+}
+.bar_content p{
+	float:right;
+}
+.bar_content p a:hover{
+	color:#f00;
+	text-decoration:underline;
+}
