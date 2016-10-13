@@ -1,5 +1,6 @@
 # daling
 ### 达令全球购(这是一个电商网站项目)
+展示链接https://wuermei.github.io/daling/index.html
 
 ![](https://github.com/wuermei/daling/raw/master/daling/images/weChat.png)
 
